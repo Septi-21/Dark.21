@@ -82,7 +82,7 @@ def siapa():
 def loginSC():
 	os.system('clear')
 	print"\033[1;97mSilahkan login SC nya dulu broder\n"
-        print('\033[1;93m!!Sebelum Login Buat Dulu Akun Baru Lewat Operamini Agar Tidak Cp!!\n"
+        print"\033[1;93m!!Sebelum Login Buat Dulu Akun Baru Lewat Operamini Agar Tidak Cp!!\n"
 	username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
 	if username =="Aink" and password =="Monyet":
